@@ -33,3 +33,6 @@ pwdTwo='fgRbnc6hfnutOtT6soub3aSNGLOJCMHbiYsPR7mZZXoH0UkMFzzJ0P6EXH1ssxw9w%2Fee' 
             if search_str is None:'''
 
 
+def contrast(response,succuss):
+    if succuss not in response:
+        print("没有匹配到预期结果")
